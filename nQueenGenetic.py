@@ -10,10 +10,7 @@ nQUEEN = 8
 # Valid genes 
 GENES = np.arange(nQUEEN)  # [0,1,2,3,4,5,6,7]
 
-  
-# Target string to be generated 
-TARGET = "I love GeeksforGeeks"
-  
+
 class Individual(object): 
     ''' 
     Class representing individual in population 
@@ -41,7 +38,7 @@ class Individual(object):
   
     def crossover_and_mutate(self, par2): 
         ''' 
-        Perform mating and produce new offspring 
+        Perform Crossover and Mutations to produce new offspring 
         '''
   
         # chromosome for offspring 
